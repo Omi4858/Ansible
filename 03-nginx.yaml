@@ -2,6 +2,6 @@
   hosts: web
   tasks:
   - name: install nginx
-    ansible.builtin.pacakage: #heterogeneous module that can work for all distros
+    ansible.builtin.package: #heterogeneous module that can work for all distros
       name: nginx
       state: present
