@@ -2,5 +2,5 @@
   host: web
   taks:
   - name: PLAY-01 TASK-01
-      anisble.builtin.debug:
+      ansible.builtin.debug:
         msg: "This is from PLAY-01 and TASK-01"
