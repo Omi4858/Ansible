@@ -1,0 +1,6 @@
+- name: varialbes to print
+  hosts: web
+  taskes:
+  - name: print the iformation
+    ansible.builtin.debug:
+      msg: "Hi My name is Omi"
