@@ -8,7 +8,7 @@
      -shell
      -terraform
     live: true
-     tools:
+    tools:
         ci: jenkins
         cm: ansible
         cloud: aws
