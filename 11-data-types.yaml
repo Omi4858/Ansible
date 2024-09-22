@@ -4,7 +4,7 @@
   vars:
     course: "Devops with AWS"
     duration: 120
-    topcs:
+    topics:
      -Linux
      -shell
      -terraform
@@ -16,4 +16,4 @@
   tasks:
   - name: print the course informaiton
     ansible.builtin.debug:
-      msg: "Hi, Iam learning {{ course}}. with dureation: {{ duration }}, and live: {{ live }}, tools are: {{ tools }}"
+      msg: "Hi, Iam learning {{ course}}. with dureation: {{ duration }},topic {{ topics }} and live: {{ live }}, tools are: {{ tools }}"
