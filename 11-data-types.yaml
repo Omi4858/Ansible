@@ -7,7 +7,7 @@
      -Linux
      -shell
      -terraform
-     live: true
+    live: true
      tools:
         ci: jenkins
         cm: ansible
